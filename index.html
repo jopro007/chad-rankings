@@ -334,9 +334,20 @@ Nick bleibt stabil auf #1 • Elias größter Aufstieg • Amon größter Abstie
 <footer>11A Verse • Ranking System</footer>
 
 <script>
-let up=0, down=0;
-function up(){up++;document.getElementById("up").innerText=up;}
-function down(){down++;document.getElementById("down").innerText=down;}
+<script>
+let upvotes = 0;
+let downvotes = 0;
+
+function up() {
+    upvotes++;
+    document.getElementById("up").innerText = upvotes;
+}
+
+function down() {
+    downvotes++;
+    document.getElementById("down").innerText = downvotes;
+}
+</script>
 </script>
 
 </body>
